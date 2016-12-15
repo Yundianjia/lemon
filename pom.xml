@@ -23,9 +23,7 @@
       <name>Someone</name>
     </contributor>
   </contributors>-->
-  
-  
-  
+
   <prerequisites>
     <maven>3.0</maven>
   </prerequisites>
@@ -1046,7 +1044,7 @@
           <configuration>
             <connectors>
               <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                  <port>8080</port>
+                  <port>9000</port>
                 <maxIdleTime>3600000</maxIdleTime>
               </connector>
             </connectors>
